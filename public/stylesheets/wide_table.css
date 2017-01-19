@@ -1,0 +1,69 @@
+.wideTable {
+  table-layout: fixed; 
+  font-size: 12px;
+  width: 800px;
+  *margin-left: -100px;/*ie7*/
+}
+
+.wideTable td, th {
+  vertical-align: top;
+  border-top: 1px solid #ccc;
+  border-left: 1px dotted #222222; 
+  padding: 4px;
+  width:   130px;
+}
+
+.wideTable th {
+  position:absolute;
+  *position: relative; /*ie7*/
+  left: 0; 
+  width: 140px;
+}
+
+.wideTableOuter {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.wideTableInner {
+  overflow-x:scroll;
+  overflow-y:visible;
+  width: 1200px; 
+  margin-left: 140px;
+  text-align: left;
+}
+
+
+.wideReportTable {
+  table-layout: fixed; 
+  font-size: 12px;
+//  width: 800px;
+  *margin-left: -100px;/*ie7*/
+}
+
+.wideReportTable td, th {
+  vertical-align: top;
+  border-top: 1px solid #ccc;
+  border-left: 1px dotted #222222; 
+  padding: 4px;
+  width:   130px;
+}
+
+.wideReportTable th {
+/*  position:absolute;
+  *position: relative; /*ie7*/
+*/  left: 0; 
+  width: 140px;
+}
+/*
+.wideReportTableOuter {
+  position: relative;
+  margin-bottom: 20px;
+}
+.wideReportTableInner {
+  overflow-x:scroll;
+  overflow-y:visible;
+//  width: 1200px;
+  margin-left: 200px;
+}*/

@@ -1,0 +1,32 @@
+[
+  {
+    "rails_app": {
+      "registry": "docker.openlogic.com",
+      "build": {
+        "name": "system_track_web"
+      },
+      "run": {
+        "name": "system-track-web",
+        "options": {
+          "Env": [
+            "CORP_USE=true"
+          ],
+          "HostConfig": {
+            "Links": [
+              "system-track-accounts:system-track-accounts",
+              "system-track-machines:system-track-machines"
+            ],
+            "PortBindings": {
+              "3000/tcp": [
+                {
+                  "HostIp": "",
+                  "HostPort": "3000"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+]

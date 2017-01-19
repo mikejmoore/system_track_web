@@ -1,0 +1,41 @@
+.machine {  
+  width: 170px;
+  background-color: #ffffdd;
+  float: left;
+  margin: 4px; 
+  padding: 2px;
+  left: auto;
+  right: auto;
+  height: 180px;
+  border: 1px solid black; 
+  overflow: auto;
+}
+
+
+.service {  
+  width: 90%;
+  background-color: #ddbbbb;
+  margin-bottom: 2px; 
+  padding: 2px;
+  border: 1px solid black; 
+  border-radius: 6px;
+}
+
+.ip-primary {
+  margin-bottom: 2px;
+  color: #000066;
+  font-size: 14px;
+}
+
+.ip-secondary {
+  margin-bottom: 2px;
+  margin-left: 6px;
+  color: red;
+  font-size: 12px;
+}
+
+.interface-table {
+  border-spacing: 0px;
+}
+
+
